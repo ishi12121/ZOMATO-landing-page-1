@@ -133,7 +133,7 @@
     width: 90%;
   }
   
-  .we_offer {
+  .we__offer {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -192,7 +192,7 @@
     cursor: pointer;
 
 }
-.collections_card_containers{
+.collections_card_container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,7 +201,7 @@
     margin-top: 1.5rem;
 
 }
-.collections_card_containers .card{
+.collections_card_container .card{
     height: 300px;
     min-width: 240px;
     background-size: cover;
@@ -236,7 +236,7 @@
     rgba(0,0,0,0.05) 85%);
 
 }
-.collections_card_containers .card .content{
+.collections_card_container .card .content{
     position: absolute;
     bottom: 0;
     left: 0;
