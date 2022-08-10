@@ -401,6 +401,7 @@ padding: 10px 12px;
   width:90% ;
   margin: auto;
   flex-wrap:wrap ;
+  gap: 2.5rem ;
 
 }
 .footer_section1 img{
@@ -469,7 +470,7 @@ padding: 10px 12px;
 .social__links_container button{
   background-color: black;
   border: none;
-  width: 25;
+  width: 25px;
   height: 25px;
   border-radius: 30px;
   display: flex;
@@ -502,4 +503,22 @@ padding: 10px 12px;
 
 
 
+}
+@media only screen and (max-width:900px){
+  .navigation_container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+@media only screen and (max-width:600px){
+  .navigation_container{
+    grid-template-columns: 1fr 1fr ;
+  }
+  
+}
+@media only screen and (max-width:450px){
+  .navigation_container{
+    grid-template-columns: 1fr;
+  }
+  
 }
