@@ -236,6 +236,8 @@
     rgba(0,0,0,0.05) 85%);
 
 }
+
+
 .collections_card_container .card .content{
     position: absolute;
     bottom: 0;
@@ -247,8 +249,37 @@
 }
 .content h4{
     font-weight: 400;
-    letter-spacing: 0.5px;
-}
+    letter-spacing: 0.5px;}
+#popular_places{
+      font-weight: 600;
+    }
+  
+.container_places{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+.place_card{
+      font-weight: 200;
+      text-align: left;
+      margin: 9px;
+      width: 28vw;
+      height :80px;
+      padding: 9px;
+      background: rgb(255,255,255);
+      border: solid 1px rgb(232,232 ,232);
+      border-radius: 10px;
+      box-shadow: 0px 1px 2px #7f7e7e;
+      flex-wrap: wrap;
+    }
+  
+.place_card h2{
+      display: block;
+      font-weight: 380;
+      letter-spacing: 0.5px;
+    }
+
 .get__the_app{
   display: flex;
   align-items:center;
@@ -357,6 +388,44 @@ padding: 10px 12px;
 .download__app_container div img {
   width: 35%;
 }
+.explore_options{
+    
+  flex-wrap: wrap;
+}
+.explore_options h1{
+  position: relative;
+  left: 7vw;
+  font-weight: 500;
+  padding: 10px;
+}
+.explore_cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3vh;
+  
+}
+.indi_card{
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 85vw;
+  height: 80px;
+  background: rgb(255,255,255);
+  border: solid 1px rgb(232,232 ,232);
+  font-weight: 400;
+  flex-wrap: wrap;
+  text-align: left;
+  box-shadow: 0px 1px 2px #7f7e7e;
+
+}
+
+
 @media only screen and (max-width: 1300px){
   .get__the_app .semiContainer .left, 
   .get__the_app ,.semiContainer .right{
@@ -372,10 +441,30 @@ padding: 10px 12px;
 
   }
   
+  
+  
+
+
+ 
+  
   .get__the_app .semiContainer{
     width: 90%;
   }
+  .place_card{
+    font-size: 80%;
+    height: 65px;
+    width: 35vw;
+  }
 }
+@media only screen and (max-width: 790px){
+  .place_card{
+    width: 35vw;
+    height: 65px;
+  }
+}
+
+
+
 @media only screen and (max-width: 700px){
   .get__the_app {
     padding: 3rem 0;
@@ -387,6 +476,37 @@ padding: 10px 12px;
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 572px){
+    #place_card{
+      font-size: 22px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 560px){
+    .place_card{
+      width: 300px;
+      height: 80px;
+    }
+    }
+  @media only screen and (max-width: 445px){
+     .indi_card{
+      font-size: 17px;
+      width: 80vw;
+      height: 68px;
+     }
+  }
+    @media only screen and (max-width: 250px){
+    .place_card{
+      font-size: 70%;
+          }
+    #popular_places{
+      font-size: 85%;
+    }
+    .indi_card{
+      font-size: 13px;
+     }
+  }
   
 
 
@@ -401,6 +521,7 @@ padding: 10px 12px;
   width:90% ;
   margin: auto;
   flex-wrap:wrap ;
+  gap: 2.5rem ;
 
 }
 .footer_section1 img{
@@ -469,7 +590,7 @@ padding: 10px 12px;
 .social__links_container button{
   background-color: black;
   border: none;
-  width: 25;
+  width: 25px;
   height: 25px;
   border-radius: 30px;
   display: flex;
@@ -502,4 +623,22 @@ padding: 10px 12px;
 
 
 
+}
+@media only screen and (max-width:900px){
+  .navigation_container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+@media only screen and (max-width:600px){
+  .navigation_container{
+    grid-template-columns: 1fr 1fr ;
+  }
+  
+}
+@media only screen and (max-width:450px){
+  .navigation_container{
+    grid-template-columns: 1fr;
+  }
+  
 }
