@@ -140,6 +140,7 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
   }
   
   .we__offer_card {
