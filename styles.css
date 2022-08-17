@@ -132,6 +132,7 @@
   .container {
     margin: 3rem auto;
     width: 90%;
+    overflow: hidden;
   }
   
   .we__offer {
